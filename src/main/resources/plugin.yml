@@ -1,0 +1,13 @@
+name: PartyPlugin
+version: '${project.version}'
+main: me.m1ran.partyplugin.PartyPlugin
+api-version: '1.21'
+softdepend:
+  - WorldChoicePlugin
+
+commands:
+  party:
+    description: Основная команда для управления party
+    usage: /party <create|invite|accept|leave|remove|list|kick>
+    aliases:
+      - p
